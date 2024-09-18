@@ -21,3 +21,4 @@ let isLoggedIn = false // this datatype(variable) is boolean
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+console.log("Himanshu")
