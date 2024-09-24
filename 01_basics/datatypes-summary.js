@@ -32,5 +32,31 @@ const myFunction = function() {
     console.log("Hello world");
 }
 
-console.log(typeof heros);
-console.table(heros)
+// console.log(typeof heros);
+// console.table(heros)
+
+
+
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myGithubname = "Himanshu"
+
+let anothername = myGithubname
+anothername = "Harsh"
+
+console.log(myGithubname)
+console.log(anothername)
+
+let userOne = {
+    email: "abc@gmail",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "him@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email);
+;
